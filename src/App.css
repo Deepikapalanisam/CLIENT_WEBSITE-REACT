@@ -1,0 +1,35 @@
+/* Center-align all headings */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Section styles */
+.home-section, .about-section, .contact-section {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  margin-top: 60px;
+}
+
+.home-section {
+  background-color: #f9f9f9;
+}
+
+.about-section {
+  background-color: #e9e9e9;
+}
+main {
+  padding-top:0px; /* Adjust based on the header's height */
+}
+
+
+.contact-section {
+  background-color: #f4f4f4;
+}
+
+/* Optional: App container padding */
+.App {
+  padding-top: 80px; /* Adjust for fixed header */
+  padding-bottom: 60px; /* Adjust for fixed footer */
+}
